@@ -2,9 +2,13 @@
 <l10n>
     <translationContributors>Marthyn</translationContributors>
     <texts>
-        <text name="configuration_title" text="Beequip Lease" />
-        <text name="configuration_fl" text="Financial" />
-        <text name="configuration_ol" text="Operational" />
+        <text name="main_setting_title" text="Beequip Lease" />
+        <text name="main_setting_true" text="Ja" />
+        <text name="main_setting_false" text="Nee" />
+        <text name="downpayment_title" text="Beequip Lease" />
+        <text name="downpayment_1" text="5%" />
+        <text name="downpayment_2" text="10%" />
+        <text name="downpayment_3" text="15%" />
     </texts>
 </l10n>
 

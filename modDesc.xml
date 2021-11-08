@@ -35,7 +35,7 @@ v0.0.1: Modbeschrijving toegevoegd
 
     <extraSourceFiles>
       <sourceFile filename="lib/modhelper.lua"/>
-      <sourceFile filename="UsedEquipment.lua"/>
+      <sourceFile filename="BeequipLeasing.lua"/>
     </extraSourceFiles>
 
   <l10n filenamePrefix="language" />
