@@ -9,6 +9,7 @@
         <text name="downpayment_1" text="5%" />
         <text name="downpayment_2" text="10%" />
         <text name="downpayment_3" text="15%" />
+        <text name="tenor_setting_title" text="Looptijd (in maanden)" />
     </texts>
 </l10n>
 
