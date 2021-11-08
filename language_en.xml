@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<l10n>
+    <translationContributors>Marthyn</translationContributors>
+    <texts>
+        <text name="configuration_title" text="Beequip Lease" />
+        <text name="configuration_fl" text="Financial" />
+        <text name="configuration_ol" text="Operational" />
+    </texts>
+</l10n>
+

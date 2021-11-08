@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<modDesc descVersion="53">
+  
+    <author>Marthyn</author>  
+    <version>0.0.1</version>
+	
+    <title>
+      <en>Lease Equipment</en>
+      <nl>Lease Equipment</nl>
+    </title>
+	
+    <description>
+<en><![CDATA[
+Beequip Leasing is here for you! Also unsatisfied with the default leasing options? Try Beequip leasing using our lease calculator. Adjust downpayment and length of lease. 
+
+CHANGELOG:
+v0.0.1: Added mod description
+
+Note: For more details and the latest updates check out the project website https://go.xilent.se/fs19-usedequipment
+]]></en>
+
+<nl><![CDATA[
+Beequip Leasing is hier voor jou! Ben je ook ontevreden met de standaard lease opties? Probeer Beequip leasing met onze leasecalculator. Zo kun je aanbetaling aanpassen en de looptijd van de lease.
+
+CHANGELOG 
+v0.0.1: Modbeschrijving toegevoegd
+
+]]></nl>
+
+    </description>
+
+    <iconFilename>modIcon.dds</iconFilename>
+
+    <multiplayer supported="true"/>
+
+    <extraSourceFiles>
+      <sourceFile filename="lib/modhelper.lua"/>
+      <sourceFile filename="UsedEquipment.lua"/>
+    </extraSourceFiles>
+
+  <l10n filenamePrefix="language" />
+</modDesc>

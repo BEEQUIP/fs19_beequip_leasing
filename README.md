@@ -1,2 +1,3 @@
-# fs19_beequip_leasing
+# Farming Simulator 19 - Leasen bij Beequip
+
 A mod for leasing in FS19
