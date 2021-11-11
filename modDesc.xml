@@ -1,42 +1,32 @@
-<?xml version="1.0" encoding="utf-8" standalone="no" ?>
-<modDesc descVersion="53">
-  
-    <author>Marthyn</author>  
-    <version>0.0.1</version>
+﻿<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<modDesc descVersion="47">
+	<author>Beequip - Marthyn</author>
 	
-    <title>
-      <en>Beequip Leasing</en>
-      <nl>Beequip Leasing</nl>
+    <version>1.0.0.0</version>
+    
+	<title>
+        <en>GlobalCompanyAddOn - Leasing with Beequip</en>
     </title>
-	
-    <description>
-<en><![CDATA[
-Beequip Leasing is here for you! Also unsatisfied with the default leasing options? Try Beequip leasing using our lease calculator. Adjust downpayment and length of lease. 
+    
+	<description>
+        <en><![CDATA[Global CompanyAddOn - Beequip leasing
+        
+You don't have enough money for new equipment or you want get cash without handing in your equipment? Beequip leasing is here for you!
 
-CHANGELOG:
-v0.0.1: Added mod description
-
-Note: For more details and the latest updates check out the project website https://go.xilent.se/fs19-usedequipment
-]]></en>
-
-<nl><![CDATA[
-Beequip Leasing is hier voor jou! Ben je ook ontevreden met de standaard lease opties? Probeer Beequip leasing met onze leasecalculator. Zo kun je aanbetaling aanpassen en de looptijd van de lease.
-
-CHANGELOG 
-v0.0.1: Modbeschrijving toegevoegd
-
-]]></nl>
-
-    </description>
-
-    <iconFilename>modIcon.dds</iconFilename>
-
+Information: Mod only playable in combination with GlobalCompany!]]></en>				
+   </description>
+    
+	<iconFilename>FS19_GlobalCompanyAddon_BeequipLeasing.dds</iconFilename>
     <multiplayer supported="true"/>
 
+    <globalCompany minimumVersion="1.5.0.0">
+        <customClasses>
+            <customClass name="GC_AddOnFieldLease"/>
+        </customClasses>
+    </globalCompany>
+		
     <extraSourceFiles>
-      <sourceFile filename="lib/modhelper.lua"/>
-      <sourceFile filename="BeequipLeasing.lua"/>
+        <sourceFile filename="scripts/GC_Checker.lua" />
+        <sourceFile filename="scripts/GC_AddOnFieldLease.lua" />
     </extraSourceFiles>
-
-  <l10n filenamePrefix="language" />
 </modDesc>

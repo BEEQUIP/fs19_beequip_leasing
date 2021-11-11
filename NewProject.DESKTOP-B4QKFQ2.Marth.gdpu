@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="iso-8859-1" standalone="no" ?>
+<giantsDebuggerProjectUserData>
+    <openFiles>
+        <file filename="C:/Users/Marth/Documents/My Games/FarmingSimulator2019/mods/FS19_GlobalCompany/gui/elements/Button.lua" line="208"/>
+        <file filename="C:/Users/Marth/Documents/My Games/FarmingSimulator2019/mods/FS19_GlobalCompanyAddOn_FieldLease/gui/GcMain_FieldLease.lua" line="183"/>
+        <file filename="C:/Users/Marth/Documents/My Games/FarmingSimulator2019/mods/FS19_GlobalCompanyAddOn_FieldLease/modDesc.xml" line="7"/>
+    </openFiles>
+    <breakpoints>
+        <breakpoint filename="C:/Users/Marth/Documents/My Games/FarmingSimulator2019/mods/fs19_beequip_leasing/lib/modhelper.lua" line="272" enabled="true" >
+        </breakpoint>
+        <breakpoint filename="C:/Users/Marth/Documents/My Games/FarmingSimulator2019/mods/fs19_beequip_leasing/lib/modhelper.lua" line="275" enabled="true" >
+        </breakpoint>
+        <breakpoint variable="iterm" enabled="true" >
+        </breakpoint>
+        <breakpoint filename="C:/Users/Marth/Documents/My Games/FarmingSimulator2019/mods/FS19_GlobalCompanyAddOn_FieldLease/gui/GcMain_FieldLease.lua" line="186" enabled="true" >
+        </breakpoint>
+        <breakpoint filename="C:/Users/Marth/Documents/My Games/FarmingSimulator2019/mods/FS19_GlobalCompanyAddOn_FieldLease/gui/GcMain_FieldLease.lua" line="184" enabled="true" >
+        </breakpoint>
+        <breakpoint variable="jemoeder" enabled="true" >
+        </breakpoint>
+        <breakpoint filename="C:/Users/Marth/Documents/My Games/FarmingSimulator2019/mods/FS19_GlobalCompany/gui/elements/Button.lua" line="208" enabled="true" >
+        </breakpoint>
+    </breakpoints>
+</giantsDebuggerProjectUserData>

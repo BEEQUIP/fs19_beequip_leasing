@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="iso-8859-1" standalone="no" ?>
+<giantsDebuggerProject>
+    <projectName>NewProject</projectName>
+    <projectBaseDirectory></projectBaseDirectory>
+    <gameUserProfileAppDirectory>%gameuserprofile%/FarmingSimulator2019/</gameUserProfileAppDirectory>
+    <gameSourceDirectory>Farming_Simulator_19-1.7.1.0.zip</gameSourceDirectory>
+    <gameSourceVersion>Farming_Simulator_19-1.7.1.0</gameSourceVersion>
+    <launchWorkingDirectory>C:/Games/Farming Simulator 19 Alpine Farming/</launchWorkingDirectory>
+    <launchExecutable>C:/Games/Farming Simulator 19 Alpine Farming/x64/FarmingSimulator2019Game.exe</launchExecutable>
+    <launchParameters></launchParameters>
+</giantsDebuggerProject>

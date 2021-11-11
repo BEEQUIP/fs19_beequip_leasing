@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+
+<GUI>
+	<GuiElement type="flowLayout" template="gcMenuFieldLeaseLayout1">   
+		<GuiElement type="text" template="gcMenuFieldLeaseHeader" text="Lease with Beequip" />
+		
+		<GuiElement type="flowLayout" template="gcMenuFieldLeaseLayout3">   
+			<GuiElement type="flowLayout" template="gcMenuFieldLeaseLayout4_1">  
+				<GuiElement type="flowLayout" template="gcMenuFieldLeaseLayout2">   
+					<GuiElement type="text" template="gcMenuFieldLeaseTableHeader" size="49px 35px" text="*"  />
+					<GuiElement type="text" template="gcMenuFieldLeaseTableHeader" size="500px 35px" text="Brand/Type" />
+					<GuiElement type="text" template="gcMenuFieldLeaseTableHeader" size="200px 35px" text="Price" />
+					<GuiElement type="text" template="gcMenuFieldLeaseTableHeader" size="200px 35px" text="Status" />
+				</GuiElement>
+
+				<GuiElement type="table" template="gcMenuFieldLeaseTableLayout" id="gui_fieldList">
+					<GuiElement type="button" template="gcMenuFieldLeaseTableLayoutButton" isTableTemplate="true" onClick="onSelect">		
+					    <GuiElement type="image" template="gcEquipmentImage" onCreate="onCreateEquipmentImage" />  
+						<GuiElement type="text" template="gcMenuFieldLeaseTableLayoutButtonText" size="500px 35px" position="55px 0px" onCreate="onCreateTextField" />
+						<GuiElement type="text" template="gcMenuFieldLeaseTableLayoutButtonText" position="555px 0px" onCreate="onCreateTextPrice" />
+						<GuiElement type="text" template="gcMenuFieldLeaseTableLayoutButtonText" position="870px 0px" onCreate="onCreateTextState" />
+					</GuiElement>
+				</GuiElement>	
+			</GuiElement>
+			<GuiElement type="flowLayout" template="gcMenuFieldLeaseLayout4_2">  
+				<GuiElement type="button" template="gcMenuFieldLeaseButton" margin="0px 0px 0px 10px" onClick="onClickBuy" text="Buy" id="gui_btn_buy" />  
+				<GuiElement type="button" template="gcMenuFieldLeaseButton" margin="0px 0px 0px 10px" onClick="onClickSell" text="Sell" id="gui_btn_sell" />  
+				<GuiElement type="button" template="gcMenuFieldLeaseButton" margin="0px 0px 0px 10px" onClick="onClickLease" text="Lease" id="gui_btn_lease" />  
+				<GuiElement type="button" template="gcMenuFieldLeaseButton" margin="0px 0px 0px 10px" onClick="onClickLeaseStop" text="Early buyout" id="gui_btn_leaseStop" />  
+			
+				<GuiElement type="text" template="gcMenuFieldLeaseTextInfo" margin="0px 100px 0px 20px" id="gui_info_1" />
+				<GuiElement type="text" template="gcMenuFieldLeaseTextInfo" margin="0px 0px 0px 20px" id="gui_info_2" />
+			
+			</GuiElement>
+		</GuiElement>
+		
+	</GuiElement>
+</GUI>
